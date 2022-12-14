@@ -1,0 +1,135 @@
+.color-navbar{
+    position:fixed !important;
+    background-color:white !important;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:9999;
+    box-shadow: 0 4px 2px -2px gray;
+    cursor:pointer;
+    color:black;
+    font-weight:bold;
+
+
+
+}
+.navImage{
+    width:100px;
+    height:auto;
+    object-fit:fill;
+    object-position:50% 50%;
+    cursor:pointer;
+
+}
+.addBorder{
+    border-right:0.1rem solid white;
+    border-left:0.1rem solid white;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+}
+.putinline{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+
+}
+.moveNavBar{
+    margin-left:10%;
+    
+}
+.add-cursor{
+    cursor:pointer;
+
+}
+.changeDirection{
+    color:white;
+
+}
+.change-color{
+    color:white;
+}
+.change-background{
+    background-color:white;
+}
+.nav-link{
+   
+    color:white;
+}
+.nav-link:active{
+    color:aqua;
+}
+.move-left{
+    width:100%;
+
+   padding:0.4rem;
+   color:black;
+}
+.add-overflow{
+    height:450px;
+    overflow-y:scroll;
+}
+@media screen and (max-width:500px){
+    .color-navbar{
+        position:fixed !important;
+        background-color:white !important;
+        top:0;
+        left:0;
+        width:100%;
+        z-index:9999;
+        box-shadow: 0 4px 2px -2px gray;
+        cursor:pointer;
+        color:black;
+        font-weight:bold;
+        overflow-y:auto;
+    
+    
+    
+    }
+    .me-auto{
+        overflow-y:auto;
+    }
+    .add-overflow{
+        height:200px;
+        overflow-y:scroll;
+    }
+    .add-overflow1{
+        height:130px;
+        overflow-y:scroll;
+    }
+    
+
+}
+
+@media screen and (min-width:501px) and (max-width:800px){
+    .color-navbar{
+        position:fixed !important;
+        background-color:white !important;
+        top:0;
+        left:0;
+        width:100%;
+        z-index:9999;
+        box-shadow: 0 4px 2px -2px gray;
+        cursor:pointer;
+        color:black;
+        font-weight:bold;
+        overflow-y:auto;
+    
+    
+    
+    }
+    .me-auto{
+        overflow-y:auto;
+    }
+    .add-overflow{
+        height:130px;
+        overflow-y:scroll;
+    }
+    .add-overflow1{
+        height:130px;
+        overflow-y:scroll;
+    }
+    
+
+
+
+}

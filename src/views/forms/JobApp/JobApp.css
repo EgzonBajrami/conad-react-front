@@ -1,0 +1,12 @@
+.wrapper-applications{
+    display:grid;
+    grid-template:auto/20% 20%  20%  20% ;
+    margin-top:5%;
+    grid-gap:30px;
+    padding:1rem;
+}
+.wrapper-elem-app{
+    box-shadow: 10px 10px 20px grey;
+    padding:1rem;
+
+}

@@ -1,0 +1,19 @@
+.wrapper-app{
+    display:flex;
+    flex-direction:row;
+    margin-top:10%;
+    justify-content: center;
+
+}
+.align-form{
+    display:flex;
+    flex-direction:column;
+    padding:1rem;
+    border:0.1rem solid black;
+    background-color:#fff !important;
+}
+.personalInfo-body{
+    display:grid;
+    grid-template:auto/48% 48%;
+    grid-gap:30px;
+}

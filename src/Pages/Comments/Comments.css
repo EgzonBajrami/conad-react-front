@@ -1,0 +1,28 @@
+.form-move{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:10%;
+    width:50%;
+    margin-left:25%;
+    padding:1rem;
+    box-shadow: 10px 10px 20px grey;
+}
+.put-twoLine{
+    display:grid;
+    grid-template: auto / 50% 50%;
+    grid-gap:20px;
+
+}
+.comment-here{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.put-center-btns{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top:5%;
+    width:100%;
+}

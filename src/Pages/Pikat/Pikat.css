@@ -1,0 +1,64 @@
+.move-location{
+    margin-top:0%;
+}
+.location-dragodan{
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    margin-top:10%;
+    margin-left:5%;
+    box-shadow: 10px 10px 20px grey;
+}
+.title-wrapper-location{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+ 
+  
+    background-color:rgb(229,0,39);
+    color:white;
+}
+.title-wrapper-location{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:24px;
+}
+.image-container-location{
+    display:flex;
+    width:100%;
+ 
+  
+ 
+}
+.image-container-location img{
+    width:100%;
+    max-width:100%;
+    height:100%;
+    max-height:100%;
+    object-fit:contain;
+    object-position:50% 50%;
+}
+.google-maps-wrapper{
+
+    width:100%;
+ 
+    margin-top:5%;
+    
+}
+@media screen and (max-width:500px){
+    .move-location{
+        margin-top:40%;
+    }
+
+}
+@media screen and (min-width:501px) and (max-width:800px){
+    .move-location{
+        margin-top:20%;
+    }
+}
+@media screen and (min-width:751px) and (max-width:1300px){
+    .move-location{
+        margin-top:15%;
+    }
+
+}

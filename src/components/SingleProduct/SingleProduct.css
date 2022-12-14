@@ -1,0 +1,50 @@
+.modal-wrapper{
+    margin-top:15%;
+}
+.center-modal{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.products-data-image1{
+    display:flex;
+    flex-direction:row;
+    height:250px;
+    width:60%;
+
+}
+.products-data-image1 img{
+    height:auto;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+   object-fit:contain;
+   object-position:50% 50%;
+}
+.products-data-description{
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+     
+    font-family: 'Snell Roundhand', cursive;
+    font-size:24px;
+    padding:0.4rem;
+    cursor:context-menu;
+}
+.products-data-description p{
+       font-weight:500;
+       text-align:center;
+       overflow-wrap: break-word;
+    
+    font-size:20px;
+
+}
+
+@media screen and (max-width:500px){
+    .modal-wrapper{
+        margin-top:30%;
+    }
+
+}

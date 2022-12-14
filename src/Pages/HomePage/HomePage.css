@@ -1,0 +1,469 @@
+.artistet-conad{
+    margin-top:8%;
+    width:90%;
+    margin-left:5%;
+}
+.artistet-conad img{
+    width:100%;
+    max-width:100%;
+    height:500px;
+    max-height:100%;
+    object-fit:cover;
+    object-position:50% 50%;
+}
+.wrapper{
+    background-color:rgb(251,251,251);
+    margin-top:8%;
+}
+.container-carousel{
+    display:grid;
+    grid-template: auto/30% 70%;
+}
+.carousel-description{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding:3rem;
+    color:orangered;
+
+
+}
+.conad-logo{
+    
+    width:100%;
+    height:80%;
+    cursor:context-menu;
+}
+.carousel-capt{
+    position:absolute;
+    margin-top:22%;
+    margin-right:4%;
+    font-family: 'Brush Script MT', cursive;
+    color:rgb(229,0,39);
+}
+
+.carousel-containe{
+    display:flex;
+     justify-content: center;
+     align-items:center;
+     cursor:pointer;
+   width:100%;
+   margin-top:1%;
+   border-left:0.1rem solid gray;
+
+
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
+.carousel-conta{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width:100%;
+    height:500px;
+    padding:0.4rem;
+  
+    
+ 
+  
+
+}
+.carousel-conta img{
+    height:auto;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+
+    object-fit:contain;
+    object-position:50% 50%;
+}
+.info-container{
+    width:90%;
+    margin-left:5%;
+ 
+    font-family: 'Snell Roundhand', cursive;
+    font-size:24px;
+    padding:0.4rem;
+    cursor:context-menu;
+}
+.logo-cont{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    cursor:context-menu;
+}
+.conad-logo2{
+    width:250px;
+    cursor:context-menu;
+}
+.products-container{
+ display:grid;
+ width:90%;
+ margin-left:5%;
+ margin-top:5%;
+ height:1200px;
+ 
+ grid-template:auto/25% 25% 25% 25%;
+
+ grid-row-gap:30px;
+
+ padding:2rem;
+ background-color:#fff;
+ grid-template-areas:"alimentum";
+ overflow:auto;
+ box-shadow: 10px 10px 20px grey;
+}
+.title-container{
+    display:flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    padding:0.4rem;
+    width:90%;
+    background-color:rgb(229,0,39);
+  
+    margin-top:-2.1%;
+    position:absolute;
+    color:white;
+    
+
+
+}
+
+.alimentum{
+    margin-top:15%;
+     margin-left:10%;
+    
+ 
+     
+     
+  
+ 
+}
+.alimentum-text{
+
+    height:250px;
+}
+.alimentum p {
+    font-family: "URW Chancery L";
+    margin-top:5%;
+    font-size:18px
+}
+.conad-alimentum{
+    width:75%;
+    height:100px;
+
+}
+.conad-alimentum1{
+    width:75%;
+    height:75px;
+}
+.conad-alimentum2{
+    width:75%;
+    height:75px;
+}
+.conad-alimentum3{
+    width:50%;
+    height:70px;
+}
+.conad-alimentum4{
+    width:75%;
+    height:100px;
+}
+.conad-btn{
+    
+    padding:0.5rem;
+    border-radius:0.5rem;
+    width:120px;
+    background-color:rgb(229,0,39);
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+
+}
+.conad-btn:hover{
+    background-color:rgb(187, 29, 40);
+    cursor:pointer;
+}
+.conad-btn2{
+    margin-top:9%;
+    padding:0.5rem;
+    border-radius:0.5rem;
+    width:120px;
+    background-color:rgb(229,0,39);
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+
+
+}
+.conad-btn2:hover{
+    background-color:rgb(187, 29, 40);
+    cursor:pointer;
+}
+.conad-btn3{
+    margin-top:9%;
+    padding:0.5rem;
+    border-radius:0.5rem;
+    width:120px;
+    background-color:rgb(229,0,39);
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+
+}
+.conad-btn3:hover{
+    background-color:rgb(187, 29, 40);
+    cursor:pointer;
+}
+@media screen and (max-width:500px){
+    .container-carousel{
+        display:flex;
+       flex-direction:column;
+    }
+    .carousel-description img{
+        display:none;
+    }
+    .info-container{
+        width:90%;
+        margin-left:5%;
+     
+        font-family: 'Snell Roundhand', cursive;
+        font-size:18px;
+        padding:0.4rem;
+        cursor:context-menu;
+    }
+    .products-container{
+        display:flex;
+        flex-direction:column;
+        width:90%;
+        margin-left:5%;
+        margin-top:5%;
+        height:auto;
+        
+       
+       
+        padding:2rem;
+        background-color:#fff;
+        grid-template-areas:"alimentum";
+        overflow:auto;
+        box-shadow: 10px 10px 20px grey;
+       }
+       .alimentum-text{
+        height:auto;
+       }
+       .title-container{
+        display:flex;
+        flex-direction: row;
+        justify-self: center;
+        justify-content: center;
+        padding:0.4rem;
+        width:90%;
+        background-color:rgb(229,0,39);
+      
+        margin-top:-10%;
+        margin-left:-8.9%;
+        position:absolute;
+        color:white;
+        
+    
+    
+    }
+}
+@media screen and (min-width:501px) and (max-width:800px){
+    .container-carousel{
+        display:flex;
+       flex-direction:column;
+       
+    }
+    .carousel-description img{
+        display:none;
+    }
+    .info-container{
+        width:90%;
+        margin-left:5%;
+     
+        font-family: 'Snell Roundhand', cursive;
+        font-size:18px;
+        padding:0.4rem;
+        cursor:context-menu;
+    }
+    .carousel-capt{
+        position:absolute;
+        margin-top:4%;
+        margin-right:25%;
+        font-family: 'Brush Script MT', cursive;
+        color:rgb(229,0,39);
+    }
+    .carousel-conta{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        width:100%;
+        height:500px;
+        padding:0.4rem;
+        margin-top:5%;
+      
+        
+     
+      
+    
+    }
+    .carousel-conta img{
+        height:auto;
+        width:100%;
+        max-width:100%;
+        max-height:100%;
+    
+        object-fit:contain;
+        object-position:50% 50%;
+    }
+
+
+
+    .products-container{
+        display:grid;
+        width:90%;
+        margin-left:5%;
+        margin-top:5%;
+        height:1900px;
+        
+        grid-template:auto/33% 33% 33%;
+       
+        grid-row-gap:30px;
+       
+        padding:2rem;
+        background-color:#fff;
+        grid-template-areas:"alimentum";
+        overflow:auto;
+        box-shadow: 10px 10px 20px grey;
+        overflow:none;
+       }
+       .alimentum-text{
+        height:350px;
+       }
+       .title-container{
+           display:flex;
+           flex-direction: row;
+           justify-self: center;
+           justify-content: center;
+           padding:0.4rem;
+           width:90%;
+           background-color:rgb(229,0,39);
+         
+           margin-top:-5.1%;
+           position:absolute;
+           color:white;
+           
+       
+       
+       }
+
+
+}
+@media screen and (min-width:751px) and (max-width:1300px){
+    .container-carousel{
+        display:grid;
+        grid-template: auto/30% 70%;
+    }
+    .carousel-description{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+        padding:3rem;
+        color:orangered;
+    
+    
+    }
+    .carousel-capt{
+        position:absolute;
+        margin-top:35%;
+        margin-right:-2%;
+        font-family: 'Brush Script MT', cursive;
+        color:rgb(229,0,39);
+    }
+    .carousel-description{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+        padding:3rem;
+        color:orangered;
+    
+    
+    }
+    .carousel-description img{
+        height:250px;
+        margin-top:30%;
+        width:400px;
+        max-width:100%;
+        max-height:100%;
+
+        object-fit:fill;
+        object-position:50% 50%;
+    }
+    .carousel-conta{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        width:100%;
+        height:500px;
+        padding:0.4rem;
+        margin-top:5%;
+      
+        
+     
+      
+    
+    }
+    .carousel-conta img{
+        height:auto;
+        width:100%;
+        max-width:100%;
+        max-height:100%;
+    
+        object-fit:contain;
+        object-position:50% 50%;
+    }
+
+
+
+    .products-container{
+        display:grid;
+        width:90%;
+        margin-left:5%;
+        margin-top:5%;
+        height:1900px;
+        
+        grid-template:auto/33% 33% 33%;
+       
+        grid-row-gap:30px;
+       
+        padding:2rem;
+        background-color:#fff;
+        grid-template-areas:"alimentum";
+        overflow:auto;
+        box-shadow: 10px 10px 20px grey;
+        overflow:none;
+       }
+       .title-container{
+           display:flex;
+           flex-direction: row;
+           justify-self: center;
+           justify-content: center;
+           padding:0.4rem;
+           width:90%;
+           background-color:rgb(229,0,39);
+         
+           margin-top:-5.1%;
+           position:absolute;
+           color:white;
+           
+       
+       
+       }
+
+}
