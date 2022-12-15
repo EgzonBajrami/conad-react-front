@@ -1,5 +1,5 @@
 .color-navbar{
-    position:sticky !important;
+    position:fixed !important;
     background-color:white !important;
     top:0;
     left:0;
