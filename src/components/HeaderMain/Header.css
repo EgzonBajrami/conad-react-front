@@ -1,9 +1,11 @@
 .color-navbar{
-    position:fixed !important;
+    position:sticky !important;
     background-color:white !important;
     top:0;
     left:0;
-    width:100%;
+    right:0;
+
+    width:100vw;
     z-index:9999;
     box-shadow: 0 4px 2px -2px gray;
     cursor:pointer;
@@ -33,10 +35,7 @@
     align-items:center;
 
 }
-.moveNavBar{
-    margin-left:10%;
-    
-}
+
 .add-cursor{
     cursor:pointer;
 
@@ -74,6 +73,7 @@
         background-color:white !important;
         top:0;
         left:0;
+        right:0;
         width:100%;
         z-index:9999;
         box-shadow: 0 4px 2px -2px gray;

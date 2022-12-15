@@ -221,6 +221,10 @@
     cursor:pointer;
 }
 @media screen and (max-width:500px){
+    .wrapper{
+        overflow-x:hidden;
+    }
+
     .container-carousel{
         display:flex;
        flex-direction:column;
@@ -228,8 +232,9 @@
     .carousel-description img{
         display:none;
     }
+  
     .info-container{
-        width:90%;
+        width:95%;
         margin-left:5%;
      
         font-family: 'Snell Roundhand', cursive;
