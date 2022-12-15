@@ -5,7 +5,9 @@
     left:0;
     right:0;
 
-    width:100vw;
+    width:100%;
+
+
     z-index:9999;
     box-shadow: 0 4px 2px -2px gray;
     cursor:pointer;
