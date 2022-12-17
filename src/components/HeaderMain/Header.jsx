@@ -64,7 +64,7 @@ function Header() {
             <NavDropdown.Item href='/produktet/Produkte_Bio'>Produkte Bio</NavDropdown.Item>
             <NavDropdown title="Bukë dhe qumështa" id="basic-nav-dropdown">
               <div className="move-left">
-              <NavDropdown.Item href="/produktet/Qumështa">Qumështa</NavDropdown.Item>
+              <NavDropdown.Item href="/produktet/Qumeshta">Qumështa</NavDropdown.Item>
               <NavDropdown.Item href="/produktet/Qumeshta_pa_laktoze">
                 Qumështa pa laktozë
               </NavDropdown.Item>
