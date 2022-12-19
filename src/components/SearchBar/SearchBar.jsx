@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Col, Form} from 'react-bootstrap'
+import {Col, Form,Button} from 'react-bootstrap'
 import './SearchBar.css'
 const SearchBar = ({filterSearch}) => {
 
@@ -25,6 +25,7 @@ const SearchBar = ({filterSearch}) => {
         placeholder="Kërko sipas emrit"
       />
     </Form.Group>
+    <Button className="conad-btn" type="submit">Kërko</Button>
     </Form>
     </Col>
   )

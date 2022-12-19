@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Col, Form} from 'react-bootstrap'
+import {Col, Form, Button} from 'react-bootstrap'
 const SearchBarBarcode = ({filterSearch}) => {
 
   const [search, setSearch] = useState('')
@@ -24,6 +24,7 @@ const SearchBarBarcode = ({filterSearch}) => {
         placeholder="Kërko sipas barkodit"
       />
     </Form.Group>
+    <Button className="conad-btn" type="submit">Kërko</Button>
     </Form>
     </Col>
   )
