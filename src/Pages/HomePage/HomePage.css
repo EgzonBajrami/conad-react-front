@@ -237,8 +237,11 @@
         width:95%;
         margin-left:5%;
      
-        font-family: 'Snell Roundhand';
+        font-family: 'Snell Roundhand' !important;
         font-size:18px;
+        text-decoration:none;
+        font-weight:normal;
+        font-style:normal;
         padding:0.4rem;
         cursor:context-menu;
     }
@@ -292,7 +295,7 @@
         width:90%;
         margin-left:5%;
      
-        font-family: 'Snell Roundhand', cursive;
+        font-family: 'Snell Roundhand';
         font-size:18px;
         padding:0.4rem;
         cursor:context-menu;
