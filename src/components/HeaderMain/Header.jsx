@@ -99,7 +99,7 @@ function Header() {
             <NavDropdown.Item href="/produktet/Te_njelmeta">Të njelmëta</NavDropdown.Item>
             <NavDropdown title="Ushqimore" id="basic-nav-dropdown">
               <div className="move-left">
-              <NavDropdown.Item href="/produktet/Salce_domatesh">Salcë domatesh</NavDropdown.Item>
+              <NavDropdown.Item href="/produktet/Salsa">Salsa</NavDropdown.Item>
               <NavDropdown.Item href="/produktet/Pasta">
               Pasta
               </NavDropdown.Item>

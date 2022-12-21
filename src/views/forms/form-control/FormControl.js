@@ -118,7 +118,7 @@ const FormControl = () => {
   <option value="Caj_dhe_kafe">Çaj dhe kafe</option>
   <option value="Drithera">Drithëra</option>
   <option value="Te_njelmeta">Përbërës për ëmbëlsira</option>
-  <option value="Salce_domatesh">Salcë domatesh</option>
+  <option value="Salsa">Salsa</option>
   <option value="Pasta">Pasta</option>
   <option value="Vaj dhe uthull">Vaj dhe uthull</option>
   <option value="Oriz">Oriz</option>
