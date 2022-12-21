@@ -15,7 +15,11 @@ import './ProductsPage.css'
 
 const ProductsPage = () =>{
     const location = useLocation();
-    const postData = location.pathname.split('/')[2];
+    let postData = location.pathname.split('/')[2];
+
+    if(postData==='Vaj_dhe_uthull'){
+      postData = 'Vaj dhe uthull'
+    }
 
     console.log(postData);
     const [data,setData] = useState([]);
