@@ -68,7 +68,7 @@
 .footer-cnd2{
     margin-top:15%;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     .wrapper-hand{
         display:flex;
         flex-direction:row;
@@ -150,8 +150,8 @@
         
         
         
-        width:90%;
-        margin-left:5%;
+        width:100%;
+        margin-left:0%;
      
         background-color: white !important;
     }
@@ -161,7 +161,7 @@
 
 }
 
-@media screen and (min-width:501px) and (max-width:800px){
+@media screen and (min-width:601px) and (max-width:800px){
 
     .wrapper-hand{
         display:flex;
@@ -216,7 +216,7 @@
     }
 
 }
-@media screen and (min-width:751px) and (max-width:1300px){
+@media screen and (min-width:801px) and (max-width:1300px){
     .wrapper-hand{
         display:flex;
         flex-direction:row;

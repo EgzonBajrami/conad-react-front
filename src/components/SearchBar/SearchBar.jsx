@@ -13,7 +13,7 @@ const SearchBar = ({filterSearch}) => {
   return (
     <Col md={{ span: 4, offset: 4 }}>
     
-    <Form onSubmit={handleSubmit}>
+    <Form className="alignForm" onSubmit={handleSubmit}>
     <Form.Group className="mb-3">
       <input
         type="text"

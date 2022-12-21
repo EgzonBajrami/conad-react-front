@@ -10,3 +10,12 @@
     width:100px;
     height:50px;
 }
+.alignForm{
+    display:flex;
+    flex-direction:column;
+    margin-top:2%;
+    
+}
+.alignForm button{
+    align-self:center;
+}

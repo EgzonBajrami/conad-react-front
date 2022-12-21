@@ -1,0 +1,10 @@
+.alignBtn{
+    display:flex;
+    flex-direction:column;
+    margin-top:2%;
+
+}
+.alignBtn button{
+    align-self:center;
+    
+}

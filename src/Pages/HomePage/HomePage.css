@@ -220,7 +220,7 @@
     background-color:rgb(187, 29, 40);
     cursor:pointer;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     .wrapper{
         overflow-x:hidden;
     }
@@ -231,6 +231,9 @@
     }
     .carousel-description img{
         display:none;
+    }
+    .carousel-containe{
+        margin-top:2.5%;
     }
   
     .info-container{
@@ -282,7 +285,7 @@
     
     }
 }
-@media screen and (min-width:501px) and (max-width:800px){
+@media screen and (min-width:601px) and (max-width:800px){
     .container-carousel{
         display:flex;
        flex-direction:column;
@@ -444,7 +447,7 @@
         width:90%;
         margin-left:5%;
         margin-top:5%;
-        height:1900px;
+        height:auto;
         
         grid-template:auto/33% 33% 33%;
        

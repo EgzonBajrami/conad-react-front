@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import {Col, Form, Button} from 'react-bootstrap'
+import './SearchBarBarcode.css'
 const SearchBarBarcode = ({filterSearch}) => {
 
   const [search, setSearch] = useState('')
@@ -12,7 +13,7 @@ const SearchBarBarcode = ({filterSearch}) => {
   return (
     <Col md={{ span: 4, offset: 4 }}>
     
-    <Form onSubmit={handleSubmit}>
+    <Form className="alignBtn" onSubmit={handleSubmit}>
     <Form.Group className="mb-3">
       <input
         type="number"
