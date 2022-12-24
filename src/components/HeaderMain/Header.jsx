@@ -27,6 +27,13 @@ function Header() {
             <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown  title="Produktet" id="basic-nav-dropdown">
               <div className="add-overflow">
+              <NavDropdown title="Gastronomi" id="basic-nav-dropdown">
+              <div className="move-left">
+              <NavDropdown.Item href="/produktet/Gastronomi_Djath">Djathëra</NavDropdown.Item>
+              <NavDropdown.Item href="/produktet/Gastronomi_Pershuta">Përshuta</NavDropdown.Item>
+              <NavDropdown.Item href="/produktet/Gastronomi_Tjera">Tjera</NavDropdown.Item>
+              </div>
+                </NavDropdown>
 
              
             <NavDropdown title="Të freskëkta" id="basic-nav-dropdown">

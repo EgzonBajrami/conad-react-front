@@ -5,6 +5,9 @@ import './Pikat.css'
 import FooterConad from "../../components/FooterConad/FooterConad";
 import conadbregu from '../../assets/images/conadbregu.jpg'
 import conadKurrizi from '../../assets/images/conadKurrizi.jpg'
+import bregu2 from '../../assets/images/bregu2.jpg'
+import muhaxherr from '../../assets/images/muhaxherr.jpg'
+import muhaxherr2 from '../../assets/images/muhaxherr2.jpg'
 const Pikat = () =>{
  
     const Dragodan = {
@@ -18,6 +21,10 @@ const Pikat = () =>{
     const Kurrizi = {
         latitude:'42.653759',
         longitute:'21.152604'
+    }
+    const Muha = {
+        latitude:'42.658085',
+        longitute:'21.168401'
     }
 
     return<>
@@ -53,7 +60,7 @@ const Pikat = () =>{
                 
             </div>
             <div className="two-images">
-                <img src={conadbregu} alt="conad-dragodan2" />
+                <img src={bregu2} alt="conad-dragodan2" />
             </div>
             
         </div>
@@ -79,6 +86,25 @@ const Pikat = () =>{
         
         <div className="google-maps-wrapper">
             <GoogleMapsCall getLatitude={Kurrizi} />
+        </div>
+    </div>
+    <div className="location-dragodan">
+        <div className="title-wrapper-location">
+            <p>Parku i qytetit</p>
+        </div>
+        <div className="image-container-location">
+            <div className="first-img">
+            <img src={muhaxherr} alt="conad-dragodan" />
+                
+            </div>
+            <div className="two-images">
+                <img src={muhaxherr2} alt="conad-dragodan2" />
+            </div>
+            
+        </div>
+        
+        <div className="google-maps-wrapper">
+            <GoogleMapsCall getLatitude={Muha} />
         </div>
     </div>
 

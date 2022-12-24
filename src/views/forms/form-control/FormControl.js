@@ -96,6 +96,9 @@ const FormControl = () => {
               onChange={(e)=>{setSection(e.target.value)}}
               value={section}>
   <option>Sektori:</option>
+  <option value="Gastronomi_Djath">Banak - djath</option>
+  <option value="Gastronomi_Pershuta">Banak - pershuta</option>
+  <option value="Gastronomi_Tjera">Banak - tjera</option>
   <option value="Jogurta">Jogurta</option>
   <option value="Freskia">Të ngrira</option>
   <option value="Pershuta">Përshuta</option>
