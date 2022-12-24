@@ -113,6 +113,9 @@ function Header() {
               <NavDropdown.Item href="/produktet/Peshk">
               Peshk
               </NavDropdown.Item>
+              <NavDropdown.Item href="/produktet/Perime">
+              Perime
+              </NavDropdown.Item>
               <NavDropdown.Item href="/produktet/Vaj_dhe_uthull">Vaj dhe uthull</NavDropdown.Item>
               <NavDropdown.Item href="/produktet/Oriz">Oriz</NavDropdown.Item>
               <NavDropdown.Item href="/produktet/Miell">Miell</NavDropdown.Item>
