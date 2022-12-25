@@ -124,6 +124,7 @@ const FormControl = () => {
   <option value="Salsa">Salsa</option>
   <option value="Peshk">Peshk</option>
   <option value="Perime">Perime</option>
+  <option value="Supa">Supa</option>
   <option value="Pasta">Pasta</option>
   <option value="Vaj dhe uthull">Vaj dhe uthull</option>
   <option value="Oriz">Oriz</option>
