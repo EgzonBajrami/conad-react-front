@@ -19,6 +19,7 @@ import EditProduct from "../../Pages/EditProduct/EditProduct";
 import Sapori from "../../Pages/Sapori/Sapori";
 import Comments from "../../Pages/Comments/Comments";
 import JobApplication from "../../Pages/JobApplication/JobApplication";
+import Alimentum from "../../Pages/Alimentum/Alimentum";
 const DefaultLayout = React.lazy(() => import('../../layout/DefaultLayout'))
 const Login = React.lazy(() => import('../../views/pages/login/Login'))
 
@@ -93,19 +94,26 @@ export const routeData = {
         {
             path:'/apliko-pune',
             element:<JobApplication />
-        }
+        },
+        {
+            path:'/11_paralele',
+            element:<Alimentum />
+
+        },
+        
 
     ],
     private:[
+        {
+            path:'/register',
+            element:<Register />
+        },
         {
 
             path:'*',
             element:<DefaultLayout />
         },
-        {
-            path:'/register',
-            element:<Register />
-        },
+       
         {
             path:'/produktet/edit/:id',
             element:<EditProduct />
