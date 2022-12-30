@@ -238,6 +238,8 @@ function Header() {
             <Nav.Link className="add-cursor" onClick={()=>{
               dispatcher(logout());
             }} href="">Log out</Nav.Link>
+            <Nav.Link className="add-cursor" 
+             href="/505">Dashboard</Nav.Link>
             </>):(<>
             <Nav.Link className="add-cursor" href="/login">Login</Nav.Link>
             </>)}
