@@ -53,7 +53,7 @@ function Header() {
             <NavDropdown title="Të ngrira" id="basic-nav-dropdown">
               <div className="move-left">
               <NavDropdown.Item href="/produktet/Pica">Pica</NavDropdown.Item>
-              <NavDropdown.Item href="/produktet/Perime">
+              <NavDropdown.Item href="/produktet/Ngrira_Perime">
                 Perime
               </NavDropdown.Item>
               <NavDropdown.Item href="/produktet/Mish">Mish</NavDropdown.Item>

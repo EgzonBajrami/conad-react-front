@@ -104,7 +104,7 @@ const FormControl = () => {
   <option value="Pershuta">Përshuta</option>
   <option value="Fresk_jera">Fresk Tjera</option>
   <option value="Pica">Pica</option>
-  <option value="Perime">Perime</option>
+  <option value="Ngrira_Perime">Ngrira Perime</option>
   <option value="Mish">Mish</option>
   <option value="Akullore">Akullore</option>
   <option value="Produkte_deti">Produkte deti</option>

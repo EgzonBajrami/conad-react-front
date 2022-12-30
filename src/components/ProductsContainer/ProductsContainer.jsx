@@ -8,11 +8,11 @@ const ProductsContainer = ({data}) =>{
     const [id,setId] = useState('');
     const [modalShow, setModalShow] = useState(false);
     const [itemOffset, setItemOffset] = useState(0);
-    const endOffset = itemOffset + 9;
+    const endOffset = itemOffset + 18;
     const currentItems = data.slice(itemOffset, endOffset);
-    const pageCount = Math.ceil(data.length / 9);
+    const pageCount = Math.ceil(data.length / 18);
     const handlePageClick = (event) => {
-      const newOffset = (event.selected * 9) % data.length;
+      const newOffset = (event.selected * 18) % data.length;
       console.log(
         `User requested page number ${event.selected}, which is offset ${newOffset}`
       );
@@ -22,19 +22,7 @@ const ProductsContainer = ({data}) =>{
 
   
     return <>
-      <ReactPaginate
-        breakLabel="..."
-        nextLabel=">"
-        onPageChange={handlePageClick}
-        pageRangeDisplayed={1}
-marginPagesDisplayed={1}
-        pageCount={pageCount}
-        previousLabel="<"
-        renderOnZeroPageCount={null}
-        containerClassName={"pagination"}
-        subContainerClassName={"pages pagination"}
-        activeClassName={"active"}
-      />
+  
     <div className="products-data-container">
   
      {currentItems &&currentItems.map((elem)=>(
@@ -69,6 +57,19 @@ marginPagesDisplayed={1}
    
 
     </div>
+    <ReactPaginate
+        breakLabel="..."
+        nextLabel=">"
+        onPageChange={handlePageClick}
+        pageRangeDisplayed={1}
+marginPagesDisplayed={1}
+        pageCount={pageCount}
+        previousLabel="<"
+        renderOnZeroPageCount={null}
+        containerClassName={"pagination"}
+        subContainerClassName={"pages pagination"}
+        activeClassName={"active"}
+      />
     </>
 
 }

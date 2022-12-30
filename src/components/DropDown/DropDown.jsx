@@ -10,6 +10,7 @@ const DropDown = () =>{
     const [higjena,setHigjena] = useState(false);
     const [drinks,setDrinks] = useState(false);
     const [alcohol,setAlcohol] = useState(false);
+    const [gastro, setGastro] = useState(false);
     const navigate = useNavigate();
    
     return<>
@@ -18,6 +19,25 @@ const DropDown = () =>{
         PRODUKTET TONA
         </h6></div>
         <div className="products-conad" onClick={()=>{ setHigjena(false);
+        setGastro(!gastro);
+        setSweet(false);
+        setFoods(false);
+        setFresk(false);
+        setDrinks(false);
+        setNgrira(false);
+        setBread(false);}}><p>Gastronomia </p></div>
+        {gastro &&(<>
+            <div className="sub-wrapper">
+
+<div className="sub-products" onClick={()=>{navigate('/produktet/Gastronomi_Djath',{state:{postData:"Djathera"}})}}>Djathëra</div>
+<div className="sub-products" onClick={()=>{navigate('/produktet/Gastronomi_Pershuta',{state:{postData:"Pershuta"}})}}>Përshuta</div>
+<div className="sub-products" onClick={()=>{navigate('/produktet/Gastronomi_Tjera',{state:{postData:"Tjera"}})}}>Tjera</div>
+
+
+</div>
+        </>)}
+        <div className="products-conad" onClick={()=>{ setHigjena(false);
+        setGastro(false);
         setSweet(false);
         setFoods(false);
         setFresk(!fresk);
@@ -36,6 +56,7 @@ const DropDown = () =>{
         </>)}
         <div className="products-conad" onClick={()=>{ setHigjena(false);
         setSweet(false);
+        setGastro(false);
         setFoods(false);
         setFresk(false);
         setDrinks(false);
@@ -46,7 +67,7 @@ const DropDown = () =>{
             <div className="sub-wrapper">
 
 <div className="sub-products" onClick={()=>{navigate('/produktet/Pica',{state:{postData:"Pica"}})}}>Pica</div>
-<div className="sub-products" onClick={()=>{navigate('/produktet/Perime',{state:{postData:"Perime"}})}}>Perime</div>
+<div className="sub-products" onClick={()=>{navigate('/produktet/Ngrira_Perime',{state:{postData:"Perime"}})}}>Perime</div>
 <div className="sub-products" onClick={()=>{navigate('/produktet/Mish',{state:{postData:"Mish"}})}}>Mish</div>
 <div className="sub-products" onClick={()=>{navigate('/produktet/Akullore',{state:{postData:"Akullore"}})}}>Akullore</div>
 <div className="sub-products" onClick={()=>{navigate('/produktet/Produkte_deti',{state:{postData:"Produkte deti"}})}}>Produkte deti</div>
@@ -58,6 +79,7 @@ const DropDown = () =>{
        <div className="products-conad" onClick={()=>{navigate('/produktet/Produkte_Bio',{state:{postData:"Produkte Bio"}})}}><p>Produkte Bio </p></div>
        <div className="products-conad" onClick={()=>{ setHigjena(false);
         setSweet(false);
+        setGastro(false);
         setFoods(false);
         setFresk(false);
         setDrinks(false);
@@ -78,6 +100,7 @@ const DropDown = () =>{
 
        <div className="products-conad" onClick={()=>{ setHigjena(false);
         setSweet(!sweet);
+        setGastro(false);
         setFoods(false);
         setFresk(false);
         setDrinks(false);
@@ -97,6 +120,7 @@ const DropDown = () =>{
        </>)}
        <div className="products-conad" onClick={()=>{ setHigjena(false);
         setSweet(false);
+        setGastro(false);
         setFoods(false);
         setFresk(false);
         setNgrira(false);
@@ -115,6 +139,7 @@ const DropDown = () =>{
         </>)}
         <div className="products-conad" onClick={()=>{ setHigjena(false);
         setSweet(false);
+        setGastro(false);
         setFoods(false);
         setFresk(false);
         setNgrira(false);
@@ -132,6 +157,7 @@ const DropDown = () =>{
         </>)}
        <div className="products-conad" onClick={()=>{ setHigjena(false);
         setSweet(false);
+        setGastro(false);
         setDrinks(false);
         setFoods(!foods);
         setAlcohol(false);
@@ -141,8 +167,11 @@ const DropDown = () =>{
        {foods &&(<>
        <div className="sub-wrapper">
 
-       <div className="sub-products" onClick={()=>{navigate('/produktet/Salce_domatesh',{state:{postData:"Salcë domatesh"}})}}>Salcë domatesh</div>
+       <div className="sub-products" onClick={()=>{navigate('/produktet/Salsa',{state:{postData:"Salcë domatesh"}})}}>Salca</div>
        <div className="sub-products" onClick={()=>{navigate('/produktet/Pasta',{state:{postData:"Pasta"}})}}>Pasta</div>
+       <div className="sub-products" onClick={()=>{navigate('/produktet/Peshk',{state:{postData:"Pasta"}})}}>Peshk</div>
+       <div className="sub-products" onClick={()=>{navigate('/produktet/Perime',{state:{postData:"Pasta"}})}}>Perime</div>
+       <div className="sub-products" onClick={()=>{navigate('/produktet/Supa',{state:{postData:"Pasta"}})}}>Supa</div>
        <div className="sub-products" onClick={()=>{navigate('/produktet/Vaj_dhe_uthull',{state:{postData:"Vaj dhe uthull"}})}}>Vaj dhe uthull</div>
        <div className="sub-products" onClick={()=>{navigate('/produktet/Oriz',{state:{postData:"Oriz"}})}}>Oriz</div>
        <div className="sub-products" onClick={()=>{navigate('/produktet/Miell',{state:{postData:"Miell"}})}}>Miell</div>
@@ -150,6 +179,7 @@ const DropDown = () =>{
        </>)}
        <div className="products-conad" onClick={()=>{
         setHigjena(!higjena);
+        setGastro(false);
         setSweet(false);
         setFoods(false);
         setFresk(false);
