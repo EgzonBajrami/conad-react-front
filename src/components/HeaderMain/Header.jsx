@@ -227,6 +227,7 @@ function Header() {
                           <NavDropdown.Item href="/Conad-Baby">Conad Baby</NavDropdown.Item>
                           <NavDropdown.Item href="/Conad-Pet">Conad Petfriends</NavDropdown.Item>
                           <NavDropdown.Item href="/Sapori">Sapori Dintorni</NavDropdown.Item>
+                          <NavDropdown.Item href="/11_Paralele">11 Paralele</NavDropdown.Item>
 
               
         </div>

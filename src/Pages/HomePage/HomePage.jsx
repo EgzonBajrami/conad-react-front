@@ -236,13 +236,7 @@ const HomePage = () =>{
             </div>
             <button className="conad-btn" onClick={()=>{navigate('/VersoNatura-Eco')}}>Më shumë</button>
         </div>
-        <div className="alimentum">
-        <div className="alimentum-text">
-            <img className="conad-alimentum2" src="https://imgur.com/opDAUqZ.png" alt="alimentum"></img>
-            <p>CONAD Alimentium është një markë e përshtatshme për ata që kanë nevoja specifike ushqimore. Një ndihmë e përditshme për mirëqënien e të gjithë familjes.</p>
-            </div>
-            <button className="conad-btn" onClick={()=>{navigate('/')}}>Më shumë</button>
-        </div>
+      
         <div className="alimentum">
         <div className="alimentum-text">
             <img className="conad-alimentum" src="https://imgur.com/uhOy8AM.png" alt="alimentum"></img>
@@ -296,6 +290,13 @@ const HomePage = () =>{
             <p>Linja CONAD Sapori&Dintorni përbëhet nga një përzgjedhje e gjerë e produktesh të paimitueshme sepse ato bëhen me lëndë të para lokale…</p>
             </div>
             <button className="conad-btn" onClick={()=>{navigate('/Sapori')}}>Më shumë</button>
+        </div>
+        <div className="alimentum">
+        <div className="alimentum-text">
+            <img className="conad-alimentum2" src="https://imgur.com/RcXcor4.png" alt="alimentum"></img>
+            <p>Linja e re e birrave 11 Paralele, është rezultati i përzgjedhjes sonë të birrave më të mira nga Italia dhe bota.</p>
+            </div>
+            <button className="conad-btn" onClick={()=>{navigate('/11_paralele')}}>Më shumë</button>
         </div>
       
 
