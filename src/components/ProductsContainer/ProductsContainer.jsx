@@ -12,6 +12,7 @@ const ProductsContainer = ({data}) =>{
     const currentItems = data.slice(itemOffset, endOffset);
     const pageCount = Math.ceil(data.length / 18);
     const handlePageClick = (event) => {
+      window.scrollTo(0,0);
       const newOffset = (event.selected * 18) % data.length;
       console.log(
         `User requested page number ${event.selected}, which is offset ${newOffset}`
