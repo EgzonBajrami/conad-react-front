@@ -9,8 +9,26 @@ import {Provider} from 'react-redux';
 import {store} from './Lib/store/store.js'
 import Header from './components/HeaderMain/Header';
 import './scss/style.scss'
+import {api,endpoints} from './Lib/Api'
+import {useRef, useEffect} from 'react';
 
 function App() {
+  const ref = useRef(null)
+
+useEffect(() => {
+  const makeCall = async() =>{
+    const result = await api.call(endpoints.getOffertImages);
+    console.log(result);
+
+  }
+  ref.current = setInterval(makeCall, 5 * 60 * 1000);
+
+  return () => {
+    if(ref.current){
+      clearInterval(ref.current)
+    }
+  }
+}, [])
   const loading = (
     <div className="pt-3 text-center">
       <div className="sk-spinner sk-spinner-pulse"></div>
